@@ -4,7 +4,7 @@ from app.main import app
 client = TestClient(app)
 
 def test_hello():
-    response = client.get("/hello/Juan")
+    response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"message": "Hello Juan"}
+    assert response.json() == {"message": "Hello CI/CD"}
 

@@ -7,4 +7,4 @@ app = FastAPI()
 def read_root():
     return {"message": "Hello CI/CD"}
 
-# lozano 4 - prueba nueva ejecución
+#

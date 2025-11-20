@@ -3,9 +3,11 @@ from app.main import app
 
 client = TestClient(app)
 
+
 def test_hello():
     response = client.get("/")
     assert response.status_code == 200
     assert response.json() == {"message": "Hello CI/CD"}
 
-# cambio de prueba lozano 7
+
+# cambio de prueba lozano 8

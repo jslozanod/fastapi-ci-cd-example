@@ -10,4 +10,4 @@ def test_hello():
     assert response.json() == {"message": "Hello CI/CD"}
 
 
-# cambio de prueba lozano 8
+# cambio de prueba lozano 10
